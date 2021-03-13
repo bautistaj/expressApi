@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Blog",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc ",
+    "start:dev": "nodemon ./build/server.js"
+  },
+  "keywords": [],
+  "author": "bautistaj",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.34",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "typeorm": "^0.2.31"
+  }
+}
+
